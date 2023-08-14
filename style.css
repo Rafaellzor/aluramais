@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --brancoprincipal: #ffffff;
+    --cinzasecundario: #c0c0c0;
+    --fonteprincipal:   'Inter';
+}
+
+body{
+    background-color: #00030c;
+    color: var(--brancoprincipal);
+    font-family: var(--fonteprincipal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.principal{
+    background-image: url(Background.png); /* colocar imagem de fundo */
+    background-repeat: no-repeat;          /* não repetir o back */
+    background-size: contain;              /* imagem ocupar todos espaço */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;        /* ocupar metade da tela*/
+    align-items: center;
+}
+.botao{
+    background-color: #167BF7;
+    color: var(--brancoprincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;  
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.botao2{
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid var(--brancoprincipal);
+}
+.aviso{
+    font-size: 12px;
+    color: var(--cinzasecundario);
+}
+.primeirotexto{
+    font-size: 28px;
+    font-weight: 700px;
+}
+.imagemcombo{
+    margin: 1em 0 2em 0 ;
+}
+.div1{
+    margin:0 6em;
+}
+.secundario{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%; /* dividar coluna e elementos */
+    align-items: center;
+    margin: 0 9em;
+}
+.imagemcomputador{
+    width: 80%;
+}
+.titulosecundario{
+    font-family: var(--fonteprincipal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.textosecundario{
+    font-family: var(--fonteprincipal);
+    color: var(--cinzasecundario);
+    font-size: 16px;
+    font-weight: 400;
+}
+.textoterceiro{
+    font-family: var(--fonteprincipal);
+    color: var(--cinzasecundario);
+    font-size: 16px;
+    font-weight: 400;
+}
+.botao3{
+    display: inline-block;      /*limitar texto na linha*/
+    margin-top: 1.2em;
+}
+.telas{
+    padding: 5em;
+}
+.disponivel{
+    font-family: var(--fonteprincipal);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.div4{
+    display: flex;
+    justify-content: space-between;
+    padding: 155px;
+    padding-top: 20px;
+}
+.baixearquivos{
+    font-family: var(--fonteprincipal);
+    font-size: 48px;
+    font-weight: 700;
+}
+.nomes{
+    display: flex;
+    justify-content: space-around;
+    padding: 200px;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 50px 50px 50px 0;
+}
+.final{
+    text-align: center;
+}
+.dispositivos{
+    font-family: var(--fonteprincipal);
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.nome{
+    font-size: 32px;
+}
+.rodape{
+    text-align: center;
+}
+.listarodape{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.ano{
+    color: var(--cinzasecundario);
+    font-size: 14px;
+    margin-top: 20px;
+}
+.foi{
+    color: var(--cinzasecundario);
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.listalink a{
+    margin-left: 35px;
+    color: var(--brancoprincipal);
+    text-decoration: none;
+}
